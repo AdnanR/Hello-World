@@ -5,10 +5,17 @@ public class HelloWorld {
 
     public static void main(String[] args) {
 
+<<<<<<< HEAD
         String limitaion = "Cats";
         String original = "Hello World";
 
         System.out.println(original + " cats " + limitaion);
+=======
+        String limitaion = "test test test";
+        String original = "Hello World";
+
+        System.out.println(original + " master" + limitaion);
+>>>>>>> master
 
         try {
 
