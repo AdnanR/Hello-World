@@ -12,6 +12,10 @@ public class HelloWorld {
 
         System.out.println(original + " cats " + limitaion);
 
+        Add add = new Add(limitaion, original);
+
+        System.out.println(add.Add() + "cats");
+
         try {
 
             System.in.read();
