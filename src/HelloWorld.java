@@ -8,9 +8,7 @@ public class HelloWorld {
         String limitaion = "test test test";
         String originala = "Hello World";
 
-        Add add = new Add(originala, limitaion);
-
-        System.out.println(add.Add());
+        System.out.println(originala);
 
         try {
 
