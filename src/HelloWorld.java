@@ -6,8 +6,11 @@ public class HelloWorld {
     public static void main(String[] args) {
 
         String limitaion = "test test test";
+        String originala = "Hello World";
 
-        System.out.println("Hello World " + limitaion);
+        Add add = new Add(originala, limitaion);
+
+        System.out.println(add.Add());
 
         try {
 
