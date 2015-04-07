@@ -1,0 +1,91 @@
+[1mdiff --cc .idea/workspace.xml[m
+[1mindex 638f12e,f3ac57d..0000000[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@@ -48,10 -48,10 +48,7 @@@[m
+            <provider selected="true" editor-type-id="text-editor">[m
+              <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="391">[m
+                <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />[m
+[31m--              <folding>[m
+[31m--                <element signature="e#228#229#0" expanded="true" />[m
+[31m--                <element signature="e#277#278#0" expanded="true" />[m
+[31m--              </folding>[m
+[32m++              <folding />[m
+              </state>[m
+            </provider>[m
+          </entry>[m
+[36m@@@ -339,7 -339,7 +336,7 @@@[m
+      <servers />[m
+    </component>[m
+    <component name="ToolWindowManager">[m
+[31m--    <frame x="1272" y="-8" width="1296" height="1040" extended-state="6" />[m
+[32m++    <frame x="1272" y="-8" width="1296" height="1040" extended-state="7" />[m
+      <editor active="true" />[m
+      <layout>[m
+        <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />[m
+[36m@@@ -405,29 -405,10 +402,23 @@@[m
+        <provider selected="true" editor-type-id="text-editor">[m
+          <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="391">[m
+            <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />[m
+[31m--          <folding>[m
+[31m--            <element signature="e#228#229#0" expanded="true" />[m
+[31m--            <element signature="e#277#278#0" expanded="true" />[m
+[31m--          </folding>[m
+[32m++          <folding />[m
+[32m +        </state>[m
+[32m +      </provider>[m
+[32m +    </entry>[m
+[32m +    <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">[m
+[32m +      <provider selected="true" editor-type-id="text-editor">[m
+[32m +        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">[m
+[32m +          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />[m
+[32m +          <folding />[m
+[32m +        </state>[m
+[32m +      </provider>[m
+[32m +    </entry>[m
+[32m +    <entry file="file://$PROJECT_DIR$/src/Add.java">[m
+[32m +      <provider selected="true" editor-type-id="text-editor">[m
+[32m +        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="391">[m
+[32m +          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />[m
+[31m-           <folding>[m
+[31m-             <element signature="e#228#229#0" expanded="true" />[m
+[31m-             <element signature="e#277#278#0" expanded="true" />[m
+[31m-           </folding>[m
+[32m++          <folding />[m
+          </state>[m
+        </provider>[m
+      </entry>[m
+[36m@@@ -435,10 -416,10 +426,7 @@@[m
+        <provider selected="true" editor-type-id="text-editor">[m
+          <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">[m
+            <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />[m
+[31m--          <folding>[m
+[31m--            <element signature="e#228#229#0" expanded="true" />[m
+[31m--            <element signature="e#277#278#0" expanded="true" />[m
+[31m--          </folding>[m
+[32m++          <folding />[m
+          </state>[m
+        </provider>[m
+      </entry>[m
+[1mdiff --cc src/HelloWorld.java[m
+[1mindex 7602633,c5f81fa..0000000[m
+[1m--- a/src/HelloWorld.java[m
+[1m+++ b/src/HelloWorld.java[m
+[36m@@@ -5,10 -5,10 +5,17 @@@[m [mpublic class HelloWorld [m
+  [m
+      public static void main(String[] args) {[m
+  [m
+[32m++<<<<<<< HEAD[m
+[32m +        String limitaion = "Cats";[m
+[32m +        String original = "Hello World";[m
+[32m +[m
+[32m +        System.out.println(original + " cats " + limitaion);[m
+[32m++=======[m
+[32m+         String limitaion = "test test test";[m
+[32m+         String original = "Hello World";[m
+[32m+ [m
+[32m+         System.out.println(original + " master" + limitaion);[m
+[32m++>>>>>>> master[m
+  [m
+          try {[m
+  [m
