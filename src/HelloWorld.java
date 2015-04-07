@@ -10,6 +10,8 @@ public class HelloWorld {
 
         System.out.println(original + " master " + limitaion);
 
+        System.out.println(original + " cats " + limitaion);
+
         try {
 
             System.in.read();
