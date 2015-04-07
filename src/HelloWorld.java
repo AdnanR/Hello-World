@@ -5,7 +5,7 @@ public class HelloWorld {
 
     public static void main(String[] args) {
 
-        String limitaion = "test test test";
+        String limitaion = "Cats";
         String original = "Hello World";
 
         System.out.println(original + " cats " + limitaion);
