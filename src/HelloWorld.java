@@ -5,11 +5,17 @@ public class HelloWorld {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello World");
+        String limitaion = "test test test";
+
+        System.out.println("Hello World " + limitaion);
 
         try {
+
             System.in.read();
+
         } catch(Exception e) {
+
+            System.out.println("Cannot read");
 
         }
     }
