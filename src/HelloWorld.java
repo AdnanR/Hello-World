@@ -6,9 +6,9 @@ public class HelloWorld {
     public static void main(String[] args) {
 
         String limitaion = "test test test";
-        String originala = "Hello World";
+        String original = "Hello World";
 
-        System.out.println(originala);
+        System.out.println(original + " cats " + limitaion);
 
         try {
 
