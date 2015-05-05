@@ -11,13 +11,9 @@ import org.codehaus.jackson.map.SerializationConfig;
 
 public class Test {
 
-    public static void main(String[] args) throws JsonGenerationException, JsonMappingException, IOException {
+    public static void main(String[] args) {
 
-        ObjectMapper mapper = new ObjectMapper();
-        mapper.enable(SerializationConfig.Feature.INDENT_OUTPUT);
-        Student student = new Student();
-
-        mapper.writeValue(new File("student.json"), student);
+        System.out.println("Hello World");
 
     }
 }
